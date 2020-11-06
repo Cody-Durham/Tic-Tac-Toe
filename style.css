@@ -1,0 +1,50 @@
+html {
+  height: 900px;
+}
+
+body {
+  /* display: flex;
+  flex-direction: row; */
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+
+#center-page {
+  height: 100%;
+  width: 500px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#center-header {
+  font-size: 2em;
+  border: 2px solid red;
+  margin: 0% 0% 20% 0%;
+}
+
+#game-board {
+  height:400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #e0e0e0;
+}
+
+.cell {
+  height: 30%;
+  width: 30%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b5b3b3;
+}
