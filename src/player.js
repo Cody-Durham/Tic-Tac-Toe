@@ -1,7 +1,7 @@
 class Player {
   constructor () {
     this.id = id;
-    this.token = 'star';
+    this.token = true;
     this.wins = [];
   }
   saveWinToStorage() {
